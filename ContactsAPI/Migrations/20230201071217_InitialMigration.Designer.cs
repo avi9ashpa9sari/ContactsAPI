@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContactsAPI.Migrations
 {
     [DbContext(typeof(ContactsAPIDbContext))]
-    [Migration("20221017080412_InitialMigration")]
+    [Migration("20230201071217_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
